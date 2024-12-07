@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\test3\manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+  File "C:\Program Files\Python312\Lib\site-packages\django\core\management\__init__.py", line 17, in <module>
+    from django.conf import settings
+  File "C:\Program Files\Python312\Lib\site-packages\django\conf\__init__.py", line 19, in <module>
+    from django.utils.deprecation import RemovedInDjango60Warning
+  File "C:\Program Files\Python312\Lib\site-packages\django\utils\deprecation.py", line 4, in <module>
+    from asgiref.sync import iscoroutinefunction, markcoroutinefunction, sync_to_async
+ModuleNotFoundError: No module named 'asgiref'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\inetpub\wwwroot\test3\manage.py", line 22, in <module>
+    main()
+  File "C:\inetpub\wwwroot\test3\manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?

@@ -1,0 +1,4 @@
+Watching for file changes with StatReloader
+[07/Dec/2024 08:24:57] "GET / HTTP/1.1" 200 12068
+Not Found: /favicon.ico
+[07/Dec/2024 08:24:57,689] - Broken pipe from ('127.0.0.1', 62311)
